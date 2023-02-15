@@ -175,7 +175,7 @@
     color: rgb(218, 244, 237);
     text-shadow: -10px 5px 10px rgba(181, 175, 175, 0.573);
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (min-width: 900px) {
   .weatherdiv{
     height: 90vh;
   }
