@@ -20,17 +20,12 @@
     align-items: center;
     border-radius: 50px;
     
-    /* justify-content: center;
-background: #e0e0e0;
-box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff; */
              height: 65vh;
              width: 70vw;
 }
 #get{
     margin-left: 40vw;
     margin-bottom: 45vh;
-    /* opacity:0; */
     display: none;
     transition:  1s ;
 }
@@ -113,7 +108,6 @@ box-shadow:  20px 20px 60px #bebebe,
     bottom: -20px;
     cursor: pointer;
     transition: all .25s ease;
-    /* box-shadow: -5px 6px 20px 0px rgba(26, 26, 26, 0.4); */
   }
   
   
@@ -127,7 +121,6 @@ box-shadow:  20px 20px 60px #bebebe,
     padding: 0.5rem;
     background: rgba(237, 237, 237, 0.398);
     border-radius: 8px;
-    /* backdrop-filter: blur(5px); */
     position: absolute;
     border-bottom: 3px solid rgba(255, 255, 255, 0.440);
     border-left: 2px  rgba(255, 255, 255, 0.545) outset;
@@ -180,7 +173,25 @@ box-shadow:  20px 20px 60px #bebebe,
     text-align: center;
     margin: 1.3rem;
     color: rgb(218, 244, 237);
-    text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+    text-shadow: -10px 5px 10px rgba(181, 175, 175, 0.573);
   }
-  
-  
+  @media screen and (max-width: 480px) {
+  .weatherdiv{
+    height: 90vh;
+  }
+  .weather{
+    left: 40px;
+    width: 65%;
+    top: 50px;
+  }
+  #get{
+    margin: 0;
+  }
+  .card{ 
+    transition:  1s;
+    background: rgb(247, 247, 247);
+    width: 60%;
+    top: 380px;
+    left: 65px;
+  }
+  }
