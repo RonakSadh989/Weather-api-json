@@ -1,5 +1,5 @@
 async function ip() {
-  let ipurl = "http://ip-api.com/json/";
+  let ipurl = "https://ipapi.co/json/";
   let ip = await (await fetch(ipurl)).json();
   console.log(ip.city);
 
